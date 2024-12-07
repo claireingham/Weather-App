@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=>, initial-scale=1.0" />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div class="weather-app-container">
+      <header>
+        <form id="search-form">
+          <input
+            type="search"
+            placholder="Enter a city..."
+            required
+            class="search-input"
+            id="search-input"
+          />
+          <input type="submit" value="Search" class="search-button" />
+        </form>
+      </header>
+      <main>
+        <div class="current-weather-data">
+          <h1 class="current-city" id="current-city">Paris</h1>
+          <p class="current-details">
+            <span id="datetime"> Saturday, 07:41 </span>, moderate rain <br />
+            Humidity: <strong> 87%</strong>, Wind: <strong> 7.2km/h</strong>
+          </p>
+          <div class="current-temperature">
+            <span class="current-temperature-icon"> ☀️</span>
+            <span class="current-temperature-value"> 24</span>
+            <span class="current-temperature-unit"> °c</span>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <p>
+          This project was coded by
+          <a href="#" target="_blank"> Claire Ingham </a> and is
+          <a href="#" target="_blank"> on GitHub</a> and
+          <a href="#" target="_blank"> hosted on Netlify</a>
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
