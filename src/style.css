@@ -39,22 +39,22 @@ header {
 main {
   padding: 30px 0;
 }
-.current-weather-data {
+.weather-app-data {
   display: flex;
   justify-content: space-between;
 }
-.current-city {
+.weather-app-city {
   font-size: 38px;
   font-weight: 900;
   margin: 0;
 }
-.current-details {
+.weather-app-details {
   color: rgba(39, 33, 66, 0.4);
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
 }
-.current-details strong {
+.weather-app-details strong {
   color: #f65282;
 }
 .current-temperature-icon {
